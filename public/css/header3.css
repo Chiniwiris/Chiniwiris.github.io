@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+/* 
+font-family: 'Amatic SC', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Roboto Mono', monospace; */
+body{
+    font-family: 'Amatic SC', cursive;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.container{
+    min-height: 100vh;
+}
+
+
+nav{
+    position: relative;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    overflow: visible;
+    height: 52px;   
+    padding-bottom: 50px;
+    border-bottom: 1px solid #333;
+}
+
+.nav__controllers{
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+nav a{
+    color: rgb(26, 23, 23);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav__photo{
+    width: 30px;
+    height: 30px;
+}
+
+.nav__name{
+    margin-right: 10px;
+}
+
+.profile__photo{
+    width: 30px;
+    height: 30px;
+    border-radius: 45%;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+
+.profile__photo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#profile-container{
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    background-color: rgb(253, 253, 253);
+    padding: 5px;
+    border-radius: 14px;
+    border: 1px solid rgb(160, 144, 144);
+}
+
+.profile__container__options{
+    display: none;
+    color: rgb(10, 10, 10);
+    padding-top: 10px;
+    border-top: 1px solid black;
+}
+
+#profile-container:hover > .profile__container__options{
+   display: block
+}

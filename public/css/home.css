@@ -1,0 +1,313 @@
+
+#carousel{
+    width: 100%;
+}
+
+#carousel p{
+    font-size: 1em;
+    font-family: 'Amatic SC', cursive;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+.carousel__container{
+    width: 90%;
+    margin: auto;
+    position: relative;
+
+}
+
+.carousel__element{
+  background-color: #eee;
+  margin-right: 5px;
+  border-radius: 10px;
+  border: 1px solid rgb(231, 231, 231);
+}
+
+.carousel__element:hover{
+    border: 1px solid #ccc;
+}
+
+.carousel__element__category__name{
+   font-family: 'Courgette', cursive;
+   text-align: center;   
+   color: rgb(59, 224, 95); 
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+.carousel__element__category__hours{
+    font-family: cursive;
+   text-align: center;
+}
+
+.carousel__list{
+    overflow: hidden;
+}
+
+.carousel__prev, .carousel__next{
+    position: absolute;
+    display: block;
+    width: 38px;
+    height: 38px;
+    border: none;
+    outline: none;
+    top: calc(50% - 15%);
+    cursor: pointer;
+    line-height: 38px;
+    text-align: center;
+    color: #000;
+    background: none;
+    opacity: 20%;
+}
+
+.carousel__prev{
+    left: -30px;
+}
+
+.carousel__next{
+    right: -30px;
+}
+
+.carousel__prev:hover{
+    opacity: 1;
+}
+
+.carousel__next:hover{
+    opacity: 1;
+}
+
+
+
+.carousel__indicadores .glider-dot{
+	display: block;
+	width: 38px;
+	height: 4px;
+	background-color: rgb(37, 48, 53);
+	opacity: .2;
+	border-radius: 0;
+}
+
+.carousel__indicadores .glider-dot:hover{
+	opacity: .5;
+}
+
+.carousel__indicadores .glider-dot.active{
+	opacity: 1;
+}
+
+/* carousel__2 */
+
+.carousel__container2{
+    width: 90%;
+    margin: auto;
+    position: relative;
+
+}
+.carousel__prev2, .carousel__next2{
+    position: absolute;
+    display: block;
+    width: 38px;
+    height: 38px;
+    border: none;
+    outline: none;
+    top: calc(50% - 15%);
+    cursor: pointer;
+    line-height: 38px;
+    text-align: center;
+    color: #000;
+    background: none;
+    opacity: 20%;
+}
+
+.carousel__prev2{
+    left: -50px;
+}
+
+.carousel__next2{
+    right: -50px;
+}
+
+.carousel__prev2:hover{
+    opacity: 1;
+}
+
+.carousel__next2:hover{
+    opacity: 1;
+}
+
+
+.carousel__indicadores2 .glider-dot{
+	display: block;
+	width: 38px;
+	height: 4px;
+	background-color: rgb(37, 48, 53);
+	opacity: .2;
+	border-radius: 0;
+}
+
+.carousel__indicadores2 .glider-dot:hover{
+	opacity: .5;
+}
+
+.carousel__indicadores2 .glider-dot.active{
+	opacity: 1;
+}
+.recent__task{
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+.recent__task p{
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #333;
+}
+
+#google__charts{
+    padding: 50px;
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid #000; */
+}
+
+.month{
+    font-family: 'Courgette', cursive;
+    width: 90%;
+    margin: auto;
+    text-align: end;
+}
+
+.slider{
+    font-family: 'Courgette', cursive;
+    background: rgb(255, 253, 253);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addBtn{
+    position: absolute;
+    bottom: 20px; right: 20px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(209, 205, 205);
+    cursor: pointer;
+    transition-property: background-color, color;
+    transition-duration: .2s, .2s;
+}
+
+.addBtn:hover{
+    background-color: #eee;
+    color: #222;
+}
+
+/* create task */
+
+.background-container{
+    background-color: rgba(228, 228, 228, 0.5);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.panel-container{
+    background-color: white;
+    width: 400px;
+    margin: 50px auto;
+    border-radius: 3px;
+    padding: 30px;
+    position: relative;
+}
+.title-bar-container{
+    width: 100%;
+    text-align: left;
+    
+}
+
+#exit-btn{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 2em;
+    text-decoration: none;
+    color: #666;
+}
+
+#exit-btn:hover{
+    color: #333;
+}
+
+#home-form{
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+}
+
+.section label{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.section input[type="text"],
+input[type="number"], select{
+    padding: 5px;
+    border: 1px solid rgba(128, 126, 126, 0.623);
+    outline: none;
+
+} 
+
+.section input[type="text"]:focus,
+input[type="number"]:focus{
+    border-bottom: 2px solid rgb(235, 156, 156);
+
+}
+
+.section select{
+    border-bottom: 2px solid rgb(235, 156, 156);
+}
+
+.section input[type="submit"]{
+    margin-top: 30px;
+    width: 35%;
+    align-self: center;
+    padding: 7px;
+    text-align: center;
+    background-color: rgb(204, 204, 204);
+    color: #222;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    transition-property: background-color, color;
+    transition-duration: .2s, .2s;
+}
+
+.section input[type="submit"]:hover, .section input[type="submit"]:focus{
+    
+    background-color: rgb(243, 119, 119);
+    color: rgb(218, 218, 218);
+    cursor: pointer;
+} 

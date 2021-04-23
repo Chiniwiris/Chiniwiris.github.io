@@ -1,0 +1,11 @@
+.register-table{
+    width: 500px;
+    margin:  auto;
+    padding-top: 50px;
+}
+
+.register-table table, th, td{
+    width: 100%;
+    text-align: center;
+    border: 1px solid #333;
+}
